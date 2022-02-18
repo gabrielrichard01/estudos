@@ -1,0 +1,19 @@
+body{
+    
+}
+
+#principal{
+    color: red;
+    background-image: url(imagens/img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#titulo{
+    color: #70e5ae;
+}
+
+.texto_verde{
+    color: green;
+}
