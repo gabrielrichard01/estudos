@@ -1,0 +1,22 @@
+p{
+    color: blue;
+}
+
+#titulo{
+    color: #70e5ae;
+}
+
+.texto_verde{
+    color: green;
+}
+
+#base{
+    height: 10px;
+    background-color: red;
+}
+
+#container{
+    background-color: blue;
+    color: white;
+    padding-top: 10px;
+}
