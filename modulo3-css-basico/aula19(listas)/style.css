@@ -1,0 +1,25 @@
+ul{
+    list-style-image: url(./imagem/Youtube.png);
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+
+    background-color: #073d;
+}
+
+ol{
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+
+    background-color: #689a;
+}
+
+li{
+    border: 1px solid;
+    background-color: hotpink;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
