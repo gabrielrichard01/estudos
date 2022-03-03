@@ -1,0 +1,1 @@
+alert("Esta página acabou de ser iniciada");
