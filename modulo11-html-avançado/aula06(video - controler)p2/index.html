@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Avançado</title>
+    <style>
+        .container{
+            position: relative;
+            width: 640px;
+            height: 360px;
+        }
+
+        .video{
+            width: 100%;
+        }
+
+        .controle{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+
+        .btn{
+            position: relative;
+            top: 100%;
+            transform: translateY(-100%);
+            width: 60px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <video id="video1" class="video" src="video/mar.mp4">
+
+        </video>
+
+        <div class="controle">
+            <img class="btn" onclick="retroceder()" src="imagem/voltar.png" alt="voltar">
+            <img class="btn" onclick="avancar()" src="imagem/frente.png" alt="frente">
+            <img class="btn" onclick="diminuir_vel()" src="imagem/aumentar.png" alt="diminuir">
+            <img class="btn" onclick="aumentar_vel()" src="imagem/mais.png" alt="aumentar">
+            <img class="btn" onclick="play()" src="imagem/play.png" alt="play">
+            <img class="btn" onclick="stop()" src="imagem/stop.png" alt="parar">
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
